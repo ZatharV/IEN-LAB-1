@@ -2,6 +2,8 @@ import random
 from pyvis.network import Network
 import webbrowser
 
+print("60001190008\nAtharv More\nIEN LAB 1")
+
 numberOfNodes = 26
 numberOfNodes_1 = 10
 numberOfNodes_2 = 6
@@ -232,7 +234,7 @@ def addAreaSeperation():
     nt.add_edge(3, 4, color='Black')
 
 
-nt = Network('900px','1800px', heading = "IEN lab 1")
+nt = Network('900px','1800px', heading = "60001190008 - IEN lab 1")
 nt.toggle_physics(False)
 
 (cor_area1,listOfConnectedNodes_1) = createGraph(numberOfNodes_1, 65)
@@ -404,7 +406,7 @@ while True:
     # print("Bellman Ford = ",shortestPath)
     # print("Dijkstra's = ", dijkstra(startNode, listOfConnectedNodes))
 
-    nt = Network('900px','1800px', heading = "IEN lab 1")
+    nt = Network('900px','1800px', heading = "60001190008 - IEN lab 1")
     nt.toggle_physics(False)
     pathFollow(shortestPath[endNode])
 
